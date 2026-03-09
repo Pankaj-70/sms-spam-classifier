@@ -4,6 +4,8 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import streamlit as st
 import string
+nltk.download('punkt_tab')
+nltk.download('stopwords')
 
 prt = PorterStemmer()
 model = pickle.load(open('model.pkl', 'rb'))
