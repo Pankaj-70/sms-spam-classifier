@@ -29,7 +29,7 @@ def transform_text(text):
 
 
 
-st.title("Email spam classifier")
+st.title("SMS spam classifier")
 sms = st.text_area("Enter the message")
 if st.button('Predict'):
     #preprocess
